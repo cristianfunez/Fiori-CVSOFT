@@ -51,6 +51,32 @@
       "env": {
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/controlesIU/controles\"}"
       }
+    },
+    {
+      "name": "controles",
+      "cwd": "${workspaceFolder}/controles",
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "args": [
+        "--open",
+        "test/flpSandbox.html#nscontroles-display"
+      ],
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/Unidad-3---La-utilizaci-n-de-los-controles-en-la-IU/controles\"}",
+        "FIORI_TOOLS_UI5_VERSION": "1.98.0",
+        "FIORI_TOOLS_UI5_URI": "https://ui5.sap.com",
+        "FIORI_TOOLS_BACKEND_CONFIG": "[{\"path\":\"/sap\",\"destination\":\"s4h\"}]"
+      }
     }
   ],
   "inputs": [

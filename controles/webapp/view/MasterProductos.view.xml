@@ -12,7 +12,11 @@
                                 height="100px"
                                 alignItems="Start"
                                 justifyContent="Start">
-                                <Label id="labelProducto" labelFor="inputProductos"  text="{i18n>labelProducto}" class="sapUiSmallMarginEnd"/> 
+                                <Label id="labelProducto" 
+                                labelFor="inputProductos"  
+                                text="{i18n>labelProducto}" 
+                                class="sapUiSmallMarginEnd"/> 
+                                
                                 <Input  id= "inputProductos" 
                                         value="{products_json>/Description}"  
                                         maxLength="50" width="200px" 

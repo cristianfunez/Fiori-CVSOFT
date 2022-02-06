@@ -1,12 +1,11 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller",
-    "sap/ui/model/Filter",
-    "sap/ui/model/FilterOperator"
+    "sap/ui/core/mvc/Controller"
+  
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller, Filter , FilterOperator) {
+    function (Controller) {
         "use strict";
 
         return Controller.extend("ns.controles.controller.View1", {
