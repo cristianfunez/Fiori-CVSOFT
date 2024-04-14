@@ -9,7 +9,11 @@
         {
             "key": "AR",
             "text": "Argentina"
-        },		
+        },	
+        {
+            "key": "CH",
+            "text": "China"
+        },				
         {
             "key": "UK",
             "text": "United Kindom"
