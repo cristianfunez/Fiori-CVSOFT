@@ -13,7 +13,15 @@
         {
             "key": "CH",
             "text": "China"
-        },				
+        },		
+        {
+            "key": "BR",
+            "text": "Brasil"
+        },		
+        {
+            "key": "PR",
+            "text": "Paraguay"
+        },								
         {
             "key": "UK",
             "text": "United Kindom"
